@@ -1,0 +1,65 @@
+.column-container{
+    display: block;
+}
+.container{
+    margin:3rem;
+    
+}
+.column{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+@media all and (min-width:768px)
+{
+    .column-container{
+        display: flex;
+    }
+
+}
+.tabel{
+    padding: 0.5rem;
+    background-color: orange;
+}
+.options{
+    display: flex;
+    
+}
+#email{
+    width: 99%;
+}
+#emailHelp{
+    color: grey;
+}
+#passwd{
+    width: 99%;
+}
+#dropdown{
+    width: 99%;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+.clear{
+    background-color: transparent;
+    color: red;
+    border-color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+table{
+    width: 95%;
+    margin: 2rem;
+}
+tbody{
+    padding: 1rem;
+}
+thead th {
+    border-bottom: 1px black solid;
+}
